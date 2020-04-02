@@ -1,8 +1,11 @@
 # Instagram-clone
 <br/>
 <br/>
+
 ## login.html
 + Id, Password 입력 시 로그인 버튼 활성화 구현
+
+<br/>
 
 ## main.html
 + 댓글 입력 후 엔터 키로 댓글 입력 구현
