@@ -1,0 +1,352 @@
+
+body {
+    background-color: #fafafa;
+    margin-top: 53px;
+}
+
+
+.user-icon {
+    border-radius: 50%;
+}
+
+
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    border-bottom: 1px solid rgba(var(--d0b,219,219,219),1);
+    background-color: white;
+}
+
+nav .wrapper {
+    display: flex;
+    width: max-content;
+    /* border: 1px solid blue; */
+    margin: auto auto;
+    align-items: center;
+    /* background-color: white; */
+} 
+
+
+
+/* logo */
+nav .wrapper .logo {
+    width: 360px;
+}
+
+nav .wrapper .logo .logo-img {
+    width: 35px;
+}
+
+nav .wrapper .logo .line {
+    display: inline-block;
+    margin: 0 10px;
+    border-left: 2px solid #333333;
+    height: 33px;
+}
+
+nav .wrapper .logo .logo-typo {
+    width: 103px;
+}
+
+/* search */
+nav .wrapper .search {
+    display: flex;
+    width: 215px;
+    justify-content: center;
+}
+
+nav .wrapper .search input {
+    width: inherit;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgba(var(--d0b,219,219,219),1);
+    border-radius: 3px;
+    background: rgba(var(--b3f,250,250,250),1);
+    color: rgba(var(--i1d,38,38,38),1);
+
+}
+
+
+/* menu */
+nav .wrapper .menu {
+    width: 360px;
+}
+
+nav .wrapper .menu .icon {
+    float: right;
+    width: 22px;
+    margin: 15px 10px;
+}
+
+
+
+/*  main  */
+
+main {
+    position: relative;
+    width: 935px;
+    padding-top: 30px;
+    margin: 0 auto;
+    /* border: 1px solid burlywood; */
+}
+
+main .feeds {
+    width: 614px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+}
+
+/* user-info */
+
+main .user-info {
+    position: relative;
+    display: flex;
+    padding: 16px;
+}
+
+main .user-info .user-icon {
+    width: 32px;
+    height: 32px;
+}
+
+main .name-wrapper {
+    margin-left: 16px;
+    line-height: 1.23;
+}
+
+main .name-wrapper .name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+main .name-wrapper .place {
+    font-size: 12px;
+    color: #262626;
+}
+
+/* post-img */
+
+main .feeds article .post-img {
+    width: 100%;
+}
+
+/* functions */
+main .feeds article .functions {
+    display: flex;
+    padding: 0 5px;
+    margin-bottom: 2px;
+}
+
+main .feeds article .functions button {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+main .feeds article .functions b
+main .name-wrapper {
+    margin-left: 16px;
+    line-height: 1.23;
+}
+
+
+main .feeds article .functions button img{
+    width: 100%;
+    height: 100%;
+}
+
+/* comments */
+
+main .feeds article .comments {
+    padding: 0 16px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+main .feeds article .comments .who-like {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+main .feeds article .comments .who-like .user-icon {
+    width: 20px;
+    height: 20px;
+}
+
+main .feeds article .comments .who-like .text {
+    margin-left: 7px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+ /* comments - comment */
+
+main .feeds article .comments .comment {
+    display: block;
+}
+
+main .feeds div {
+    margin-bottom: 5px;
+}
+
+main .feeds span {
+    font-weight: 600;
+}
+
+main .feeds p {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+/* input-comment */
+
+main .feeds article .input-comment {
+    padding: 0 16px;
+    margin-top: 5px;
+    height: 55px;
+    border-top: 1px solid #dedede;
+}
+
+.input-comment input {
+    width: 92%;
+    height: 100%;
+    border: none;
+}
+
+.input-comment button {
+    background-color: white;
+    color: #0095F6;
+}
+
+/* main-right */
+
+main .main-right {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    width: 293px;
+    /* border: 1px solid teal; */
+}
+
+ /* main-right - user-info */
+main .main-right .user-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 7px 0 12px;
+    padding: 0 0 0 5px;
+}
+
+main .main-right .user-info .user-icon {
+    width: 50px;
+    height: 50px;
+}
+
+main .main-right .user-info .name-wrapper {
+    margin-left: 16px;
+    line-height: 1.25;
+}
+
+main .main-right .user-info .name-wrapper .name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+main .main-right .user-info .name-wrapper .full-name {
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+ /* main-right - story */
+
+.container {
+    border: 1px solid #dedede;
+    background-color: white;
+    padding: 0 16px; 
+    height: 223px;
+}
+
+.story-wrapper {
+    height: 176px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+ /* main-right - container - header*/
+
+.container header{
+    margin: 16px 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container header span:first-child {
+    font-size: 14px;
+    color: #8E8E8E;
+    font-weight: 600;
+}
+
+.container header span:last-child {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+ /* main-right - container - userinfo */
+.main-right .container .user-info {
+    margin: 16px 0;
+}
+
+.main-right .container .user-info .user-icon {
+    width: 34px;
+    height: 34px;
+}
+
+.main-right .container .user-info .name-wrapper {
+    margin-left: 12px;
+}
+
+.main-right .container .user-info .name-wrapper .time {
+    font-size: 10px;
+    color: #828282;
+}
+
+ /* main-right - recommendation */
+
+ .main-right .recommendation {
+     overflow: hidden;
+     margin: 12px 0;
+ }
+
+
+/* footer */
+footer span{
+    font-size: 11px;
+    color: #c7c7c7;
+}
+
+footer nav {
+    margin-bottom: 16px;
+}
+
+footer nav li {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+}
+
+footer nav li::after {
+    content: "\00B7";
+    margin: 0 0.25em;
+}
+
+footer nav li:last-child::after {
+    content: none;
+}
